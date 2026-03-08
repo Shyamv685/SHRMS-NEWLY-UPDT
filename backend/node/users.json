@@ -1,0 +1,371 @@
+[
+  {
+    "id": 1,
+    "email": "ads766@gmail.com",
+    "password": "8b9b0bfaec494522265e3fd6bf6418783e55578f6c3317493ec7289b30a291f9",
+    "role": "admin",
+    "name": "ghggg",
+    "phone": "7876867878",
+    "qualification": ""
+  },
+  {
+    "id": 2,
+    "email": "ruit34@gmail.com",
+    "password": "94e971c2da2bdba9f6a301090fd2de7efded23c937746ed5883c548c5fbaff71",
+    "role": "employee",
+    "name": "kuik",
+    "phone": "9870909807",
+    "qualification": ""
+  },
+  {
+    "id": 3,
+    "email": "hr64765@gmail.com",
+    "password": "3e6c7a7ff32718a5f409f538e9de97ea9327dfa59e43d3e402d3ec37fcbc4022",
+    "role": "hr",
+    "name": "kiran",
+    "phone": "898979898",
+    "qualification": ""
+  },
+  {
+    "id": 4,
+    "email": "jerrymerlin@gmail.com",
+    "password": "4ec8b2311e35aad43bb08c7f64f12c7a7527d3016ae00bf406b39dfff1455029",
+    "role": "admin",
+    "name": "Jerrymerlin",
+    "phone": "9879870909",
+    "qualification": ""
+  },
+  {
+    "id": 5,
+    "email": "gnioiedon@gmail.com",
+    "password": "a528c443280b8723e092d9a2a599ad0cc0f7f51183b78a6104b6b58647f1192d",
+    "role": "employee",
+    "name": "Ravi Kumar",
+    "phone": "67788887",
+    "qualification": ""
+  },
+  {
+    "id": 6,
+    "email": "dgja68@gmail.com",
+    "password": "92fa569b6096524cc89b1f9aa0e3876b85c9c7ed9df96e61974005ad1e60fd89",
+    "role": "hr",
+    "name": "kiran",
+    "phone": "9879879870",
+    "qualification": ""
+  },
+  {
+    "id": 7,
+    "email": "shivaraj578@gmail.com",
+    "password": "b21559a00b41a89c9cb18a23e63db13ec111b4042e82330fc4617a871d2a3f2f",
+    "role": "admin",
+    "name": "Shivaraj",
+    "phone": "98798709898",
+    "qualification": ""
+  },
+  {
+    "id": 8,
+    "email": "fdghfgfg@gmail.com",
+    "password": "d0568eb4ab8872154cdce1d7aef784bbe58af851e897d194592b5797ec1c79e7",
+    "role": "employee",
+    "name": "herop",
+    "phone": "789778977",
+    "qualification": ""
+  },
+  {
+    "id": 9,
+    "email": "ravikumar12@gmail.com",
+    "password": "9ac3d96b5b48942e771d950fe3b5af647d22a197bdee4540848d6c9361c2cad7",
+    "role": "employee",
+    "name": "Ravi kumar ",
+    "phone": "",
+    "qualification": ""
+  },
+  {
+    "id": 10,
+    "email": "kirsam54@gmail.com",
+    "password": "1ba19ebd2a8fa609b7beb085d0b7f30f0e262859b475f8e69073cf884a6e0b02",
+    "role": "hr",
+    "name": "Kiran",
+    "phone": "98709887989",
+    "qualification": ""
+  },
+  {
+    "id": 11,
+    "email": "Hero@gmail.com",
+    "password": "8322a7ef87d914d6bd2d7100d3ae9e46df777dc9e1ce13b49133ab5dc30ac220",
+    "role": "employee",
+    "name": "hero",
+    "phone": "6urrtytry",
+    "qualification": ""
+  },
+  {
+    "id": 12,
+    "email": "kiran@gmail.com",
+    "password": "74bbc7d2b380154d244a9012209cb9faee68353d684f82e37ee53c0f3d7a39b3",
+    "role": "hr",
+    "name": "Kiran",
+    "phone": "787898655",
+    "qualification": ""
+  },
+  {
+    "id": 13,
+    "email": "frgjknop@gmail.com",
+    "password": "3bf93fa783f7b03044d4677bff5adb2fc392fc389d92bd87a89c362b51e72949",
+    "role": "employee",
+    "name": "RaviKumar",
+    "phone": "789798988",
+    "qualification": ""
+  },
+  {
+    "id": 14,
+    "email": "cxgdfreghdg@gmail.com",
+    "password": "243bd5f1f16a2da067851b3cfb9290c5493f7914d0f8e4e97195999e2398e78b",
+    "role": "employee",
+    "name": "Ravi Kumar",
+    "phone": "678678678678",
+    "qualification": ""
+  },
+  {
+    "id": 15,
+    "email": "Ravkumar@gmail.com",
+    "password": "7bedce98487f277fa19fb5b23b403ad3b24a7a21e03bda39df4f51a6513d3108",
+    "role": "employee",
+    "name": "Ravi kumar",
+    "phone": "3e453456",
+    "qualification": ""
+  },
+  {
+    "id": 16,
+    "email": "Kiran34@gmail.com",
+    "password": "898c570b7e28044ab15333a91b66cc640a78d3604a1ec9472e66e9484b0a32f8",
+    "role": "hr",
+    "name": "Kiran",
+    "phone": "5676686667",
+    "qualification": ""
+  },
+  {
+    "id": 17,
+    "email": "DDGIU@gmail.com",
+    "password": "1b258be0f59dd8b47e48399a978ad1559a20040e616dee4ba9ec2c7f9f0ec378",
+    "role": "hr",
+    "name": "CFG",
+    "phone": "546456456",
+    "qualification": ""
+  },
+  {
+    "id": 18,
+    "email": "hgjkl@gmail.com",
+    "password": "fc629b7a17915d4712c603c4931144c778998c18118f1e9bc356a40c0ede70f6",
+    "role": "employee",
+    "name": "ghdf",
+    "phone": "46456464",
+    "qualification": ""
+  },
+  {
+    "id": 19,
+    "email": "gdsfgghf@gmail.com",
+    "password": "0cb5b7589bf10e6c719e806bf90178e1519b9c234db1758453eef9c5a80133a9",
+    "role": "employee",
+    "name": "fghjg",
+    "phone": "657865878",
+    "qualification": ""
+  },
+  {
+    "id": 20,
+    "email": "fvgjhjkl@gmail.com",
+    "password": "945c4666085265c6f113893c17a2e47e298c67a094eff9e09ddafcd6565d9b08",
+    "role": "hr",
+    "name": "fjftgjhgjg",
+    "phone": "5675756765",
+    "qualification": ""
+  },
+  {
+    "id": 21,
+    "email": "heee@gmail.com",
+    "password": "f63032771018756a10a6f3cd2725f0b9def73d136097b178be93590b120553db",
+    "role": "employee",
+    "name": "ret",
+    "phone": "65755646",
+    "qualification": ""
+  },
+  {
+    "id": 22,
+    "email": "RaviKumar@gmail.com",
+    "password": "93c8e653be22b254aa3a63e4359ce9b28b538f8cb9927b1fa8ab251d17b47ebb",
+    "role": "employee",
+    "name": "Ravi Kumar R",
+    "phone": "8877666775",
+    "qualification": ""
+  },
+  {
+    "id": 23,
+    "email": "dfghjrngmp@gmail.com",
+    "password": "f374825bc7a7e07d9fb6da8d8e0527f29905f40faca7b0995c51a85a90e2eaf1",
+    "role": "employee",
+    "name": "Ravi Kumar R",
+    "phone": "789789797979",
+    "qualification": ""
+  },
+  {
+    "id": 24,
+    "email": "rvikirmya@gmail.com",
+    "password": "f066061b1703e0adca2e528bbcf3896e4c1fae27d0a5cfec1dfb834a9fe95a90",
+    "role": "employee",
+    "name": "Ravi Kumar R",
+    "phone": "95674564646",
+    "qualification": ""
+  },
+  {
+    "id": 25,
+    "email": "Kiran@gmail.com",
+    "password": "4fdfaf16425b3119214f2316f887c0333be225d182ae87d4ed48dbedd3ef4439",
+    "role": "hr",
+    "name": "Kiran",
+    "phone": "97887788",
+    "qualification": ""
+  },
+  {
+    "id": 26,
+    "email": "dcvfdfgvdfgvdfgvdf@gmail.com",
+    "password": "e53a550caa7e87f0fde883c7dd1b93a3b96cd38b8705f08e279817d3f258beb8",
+    "role": "employee",
+    "name": "Ravi Kumar R",
+    "phone": "67876979879",
+    "qualification": ""
+  },
+  {
+    "id": 27,
+    "email": "admin@gmail.com",
+    "password": "f6cd439e43f318550c5b2270a00779f51a74d543817390708c85327ab16db2ba",
+    "role": "admin",
+    "name": "aduh",
+    "phone": "678789789",
+    "qualification": ""
+  },
+  {
+    "id": 28,
+    "email": "Shivaraj@gmail.com",
+    "password": "1e27822e386b263146aa9d61cb57c6fa831abfffd333da246ec67a5e191e07f9",
+    "role": "admin",
+    "name": "Shivaraj",
+    "phone": "67869788998",
+    "qualification": ""
+  },
+  {
+    "id": 29,
+    "email": "shyamkumarv685@gmail.com",
+    "password": "e6f03b4b00b651e3ae85bd2c77a6e9d6292664c7afc9efb8d8becd7f7f266f06",
+    "role": "employee",
+    "name": "bgvhg",
+    "phone": "656546565",
+    "qualification": ""
+  },
+  {
+    "id": 30,
+    "email": "shyamkumarv683@gmail.com",
+    "password": "f0cc1bfc7bb814c8e173d5b0e37d122f9d6006dbe3f1365f401c71179226de83",
+    "role": "employee",
+    "name": "sivakumar D ",
+    "phone": "9768567432",
+    "qualification": ""
+  },
+  {
+    "id": 31,
+    "email": "Devakrishna34@gmail.com",
+    "password": "a42ba0a9adf4f0595452e46ea4c87bc7139021f7a900f7320161370adcb17099",
+    "role": "hr",
+    "name": "Devakrishna",
+    "phone": "9887656750",
+    "qualification": ""
+  },
+  {
+    "id": 32,
+    "email": "prakashraj@gmail.com",
+    "password": "6ef6f3f582d4a01412566bab399bbcca8c9f5c54c1e6b82fd4555bb350658b8a",
+    "role": "admin",
+    "name": "prakashraj",
+    "phone": "87766508868",
+    "qualification": ""
+  },
+  {
+    "id": 33,
+    "email": "shyamkumarv554@gmail.com",
+    "password": "018e406a9e4a3a30c62e719fafdefd3e0b4d70c39b0a512bf1c89d2665601698",
+    "role": "employee",
+    "name": "shyam",
+    "phone": "9886563560",
+    "qualification": ""
+  },
+  {
+    "id": 34,
+    "email": "shyamkumarv68@gmail.com",
+    "password": "d2dc85fed2104598a780a20f44dff7573ee5a67c3bb1d38fd1ffa2c8b66f4ac4",
+    "role": "hr",
+    "name": "ygf",
+    "phone": "78967896743",
+    "qualification": ""
+  },
+  {
+    "id": 35,
+    "email": "shyamkumarv6@gmail.com",
+    "password": "f632bb4ef8428e1a2129378a89768e89487107cbdc96b42de0110b69f350ac36",
+    "role": "hr",
+    "name": "hero",
+    "phone": "6757689789",
+    "qualification": ""
+  },
+  {
+    "id": 36,
+    "email": "shyamkumarv5@gmail.com",
+    "password": "bab847fee8be6501613b19a9f62d7e705aa26c222fd2c36fa4d1df0ce1827cd6",
+    "role": "hr",
+    "name": "dfg",
+    "phone": "657869869",
+    "qualification": ""
+  },
+  {
+    "id": 37,
+    "email": "shyamkumarv9@gmail.com",
+    "password": "25575556befd90e3df8c8dfdd2c5f68c6467327b505535b69b653618dd3bacf9",
+    "role": "employee",
+    "name": "rtyurty",
+    "phone": "e546586789679",
+    "qualification": ""
+  },
+  {
+    "id": 38,
+    "email": "shyamkumar775@gmail.com",
+    "password": "4cf8c576d4914a2a2a58cf230c63d0a84b91c1bcb6dec0c95377550b76965844",
+    "role": "employee",
+    "name": "4rtyry",
+    "phone": "67867876878",
+    "qualification": ""
+  },
+  {
+    "id": 39,
+    "email": "shyamkumarv999@gmail.com",
+    "password": "1de36df9cb87a0c3694d2ce73c92aaa6571f3b25b1d388863159e0e45321de07",
+    "role": "hr",
+    "name": "fjhfhh",
+    "phone": "789789789789",
+    "qualification": ""
+  },
+  {
+    "id": 40,
+    "email": "shyamkuma97655@gmail.com",
+    "password": "f812f81a597e3e8b89312ad6142e34a10911379ccd49a1575a712701500f568d",
+    "role": "admin",
+    "name": "hsdfgsd",
+    "phone": "45675757567",
+    "qualification": ""
+  },
+  {
+    "id": 41,
+    "email": "shyamkumarv6556@gmail.com",
+    "password": "2b3eec32d68808f3c1db754ef6677d1fc59764339414cf3747b9572110c63d26",
+    "role": "employee",
+    "name": "tyutye",
+    "phone": "567567867867",
+    "qualification": ""
+  }
+]

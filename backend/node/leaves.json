@@ -1,0 +1,54 @@
+[
+  {
+    "id": 4,
+    "employeeId": 30,
+    "leaveType": "Sick Leave",
+    "startDate": "2026-01-01",
+    "endDate": "2026-01-08",
+    "reason": "vcb vc",
+    "status": "Approved",
+    "createdAt": "2026-01-31T15:16:34.252Z",
+    "approvedAt": "2026-01-31T15:28:48.948Z",
+    "approvedBy": 31,
+    "employeeName": "sivakumar D "
+  },
+  {
+    "id": 3,
+    "employeeId": 24,
+    "leaveType": "Sick Leave",
+    "startDate": "2025-11-06",
+    "endDate": "2025-11-11",
+    "reason": "High Fever",
+    "status": "Rejected",
+    "createdAt": "2025-11-07T17:53:45.524Z",
+    "approvedAt": null,
+    "approvedBy": null,
+    "employeeName": "Ravi Kumar R"
+  },
+  {
+    "id": 2,
+    "employeeId": 23,
+    "leaveType": "Sick Leave",
+    "startDate": "2025-11-08",
+    "endDate": "2025-11-21",
+    "reason": "High Fever",
+    "status": "Approved",
+    "createdAt": "2025-11-07T17:45:49.517Z",
+    "approvedAt": "2026-01-31T15:28:53.090Z",
+    "approvedBy": 31,
+    "employeeName": "Ravi Kumar R"
+  },
+  {
+    "id": 1,
+    "employeeId": 22,
+    "leaveType": "Sick Leave",
+    "startDate": "2025-11-06",
+    "endDate": "2025-11-11",
+    "reason": "High Fever ",
+    "status": "Rejected",
+    "createdAt": "2025-11-07T17:41:54.836Z",
+    "approvedAt": null,
+    "approvedBy": null,
+    "employeeName": "Ravi Kumar R"
+  }
+]

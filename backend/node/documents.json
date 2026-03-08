@@ -1,0 +1,15 @@
+[
+  {
+    "id": 1,
+    "employeeId": 30,
+    "documentType": "pan_card",
+    "description": "",
+    "filename": "doc_30_pan_card_1769872528018.pdf",
+    "fileUrl": "/uploads/doc_30_pan_card_1769872528018.pdf",
+    "uploadedAt": "2026-01-31T15:15:28.023Z",
+    "status": "pending",
+    "reviewedBy": null,
+    "reviewedAt": null,
+    "comments": null
+  }
+]

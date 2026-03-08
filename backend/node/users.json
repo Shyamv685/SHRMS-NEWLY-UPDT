@@ -367,5 +367,14 @@
     "name": "tyutye",
     "phone": "567567867867",
     "qualification": ""
+  },
+  {
+    "id": 42,
+    "email": "shyamkumrew85@gmail.com",
+    "password": "fc826c6550b78231a3fa94627b9a29ea71b474f4f7f6d5b9dcfddfa14a8a71fe",
+    "role": "employee",
+    "name": "rtert",
+    "phone": "65765787698789",
+    "qualification": ""
   }
 ]

@@ -27,6 +27,11 @@ import Wellness from "./pages/Wellness";
 import Skills from "./pages/Skills";
 import Recognition from "./pages/Recognition";
 import InternalChat from "./pages/InternalChat";
+import CareerGrowth from "./pages/CareerGrowth";
+import ResumeScreening from "./pages/ResumeScreening";
+import DocumentManagement from "./pages/DocumentManagement";
+import EmployeeSurvey from "./pages/EmployeeSurvey";
+import LearningPortal from "./pages/LearningPortal";
 import Admin from "./pages/Admin";
 import RemoteWork from "./pages/RemoteWork";
 import DashboardLayout from "./components/dashboard/DashboardLayout";
@@ -49,6 +54,11 @@ function App() {
           <Route path="skills" element={<Skills />} />
           <Route path="recognition" element={<Recognition />} />
           <Route path="internal-chat" element={<InternalChat />} />
+          <Route path="career-growth" element={<CareerGrowth />} />
+          <Route path="resume-screening" element={<ResumeScreening />} />
+          <Route path="documents" element={<DocumentManagement />} />
+          <Route path="surveys" element={<EmployeeSurvey />} />
+          <Route path="learning-portal" element={<LearningPortal />} />
           <Route path="reports" element={<Reports />} />
           <Route path="profile" element={<Profile />} />
           <Route path="inbox" element={<Inbox />} />

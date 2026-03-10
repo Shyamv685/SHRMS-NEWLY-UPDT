@@ -376,5 +376,23 @@
     "name": "rtert",
     "phone": "65765787698789",
     "qualification": ""
+  },
+  {
+    "id": 43,
+    "email": "shyam85@gmail.com",
+    "password": "f6ada0f8b46c5d91c4174a866becf1d256e3fcdaf5e4959484476ddc18024678",
+    "role": "employee",
+    "name": "adqwerq3we",
+    "phone": "6457568",
+    "qualification": ""
+  },
+  {
+    "id": 44,
+    "email": "shyamku5@gmail.com",
+    "password": "9a2cdae8d415c89556c4f5d4e9296980c933d3b2a6519d01b020b861fc56864e",
+    "role": "employee",
+    "name": "dfbhgdfgd",
+    "phone": "5678568546",
+    "qualification": ""
   }
 ]

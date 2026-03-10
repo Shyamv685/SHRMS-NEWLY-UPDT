@@ -15,12 +15,14 @@ const allMenuItems = [
   { icon: Icons.Calendar, label: "Calendar", path: "/calendar", roles: ["hr"] },
   { icon: Icons.CheckSquare, label: "Todos", path: "/todos", roles: ["hr"] },
   { icon: Icons.Clock, label: "Attendance", path: "/attendance", roles: ["hr", "employee"] },
+  { icon: Icons.ScanFace, label: "Smart Attendance", path: "/smart-attendance", roles: ["hr", "employee"] },
   { icon: Icons.Home, label: "Remote Work", path: "/remote-work", roles: ["hr", "employee"] },
   { icon: Icons.Calendar, label: "Leave", path: "/leave", roles: ["hr"] },
   { icon: Icons.Calendar, label: "Leave Request", path: "/leave", roles: ["employee"] },
   { icon: Icons.DollarSign, label: "Payroll", path: "/payroll", roles: ["hr"] },
   { icon: Icons.DollarSign, label: "Salary", path: "/salary", roles: ["employee"] },
   { icon: Icons.DollarSign, label: "Payroll Correction", path: "/payroll-correction", roles: ["hr"] },
+  { icon: Icons.ShieldAlert, label: "Fraud Detection", path: "/payroll-fraud-detection", roles: ["hr"] },
   { type: "heading", label: "Recruitment", roles: ["hr", "employee"] },
   { icon: Icons.Clock, label: "Timesheet", path: "/timesheet", roles: ["employee"] },
   { icon: Icons.Briefcase, label: "Jobs", path: "/jobs", roles: ["hr", "employee"] },
@@ -30,6 +32,7 @@ const allMenuItems = [
   { icon: Icons.Users, label: "Employees", path: "/employees", roles: ["hr", "employee"] },
   { icon: Icons.Video, label: "Meeting", path: "/meeting", roles: ["hr", "employee"] },
   { icon: Icons.BarChart3, label: "Reports", path: "/reports", roles: ["hr", "employee"] },
+  { icon: Icons.BrainCircuit, label: "Attrition Prediction", path: "/attrition-prediction", roles: ["hr"] },
   { icon: Icons.MapPin, label: "Tripets", path: "/tripets", roles: ["employee"] },
   { icon: Icons.Heart, label: "Wellness", path: "/wellness", roles: ["hr", "employee"] },
   { icon: Icons.Target, label: "Skills", path: "/skills", roles: ["hr", "employee"] },
@@ -40,10 +43,14 @@ const allMenuItems = [
   { icon: Icons.Folder, label: "Documents", path: "/documents", roles: ["hr", "employee"] },
   { icon: Icons.ClipboardList, label: "Surveys", path: "/surveys", roles: ["hr", "employee"] },
   { icon: Icons.BookOpen, label: "Learning Portal", path: "/learning-portal", roles: ["employee"] },
+  { icon: Icons.BrainCircuit, label: "Smart Learning", path: "/smart-learning", roles: ["hr", "employee"] },
   { icon: Icons.GraduationCap, label: "Training & Development", path: "/training", roles: ["employee"] },
   { icon: Icons.MessageSquare, label: "Feedback", path: "/feedback", roles: ["employee"] },
   { icon: Icons.MessageSquare, label: "Employee Feedback", path: "/feedback", roles: ["hr"] },
+  { icon: Icons.Activity, label: "Performance Analyzer", path: "/performance-analyzer", roles: ["hr", "employee"] },
+  { icon: Icons.HeartPulse, label: "Mood Tracker", path: "/mood-tracker", roles: ["hr", "employee"] },
   { type: "heading", label: "Support", roles: ["hr", "employee"] },
+  { icon: Icons.Bot, label: "AI HR Assistant", path: "/hr-chatbot", roles: ["hr", "employee"] },
   { icon: Icons.User, label: "Profile", path: "/profile", roles: ["hr"] },
   { icon: Icons.Settings, label: "Settings", path: "/settings", roles: ["hr", "employee"] },
   { icon: Icons.Megaphone, label: "Announcements", path: "/announcements", roles: ["hr", "employee"] },
@@ -102,10 +109,9 @@ export default function SidebarMenu({ isCollapsed, onToggle, role }: SidebarMenu
               key={item.path}
               to={item.path!}
               className={({ isActive }) =>
-                `flex items-center gap-3 px-4 py-3 rounded-lg transition-colors ${
-                  isActive
-                    ? "bg-blue-50 dark:bg-blue-900/50 text-blue-600 dark:text-blue-400"
-                    : "text-gray-700 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-700"
+                `flex items-center gap-3 px-4 py-3 rounded-lg transition-colors ${isActive
+                  ? "bg-blue-50 dark:bg-blue-900/50 text-blue-600 dark:text-blue-400"
+                  : "text-gray-700 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-700"
                 }`
               }
             >

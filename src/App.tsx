@@ -34,6 +34,13 @@ import EmployeeSurvey from "./pages/EmployeeSurvey";
 import LearningPortal from "./pages/LearningPortal";
 import Admin from "./pages/Admin";
 import RemoteWork from "./pages/RemoteWork";
+import AttritionPrediction from "./pages/AttritionPrediction";
+import HRChatbot from "./pages/HRChatbot";
+import SmartAttendance from "./pages/SmartAttendance";
+import AIPerformanceAnalyzer from "./pages/AIPerformanceAnalyzer";
+import MoodTracker from "./pages/MoodTracker";
+import SmartLearning from "./pages/SmartLearning";
+import PayrollFraudDetection from "./pages/PayrollFraudDetection";
 import DashboardLayout from "./components/dashboard/DashboardLayout";
 import ProtectedRoute from "./components/auth/ProtectedRoute";
 
@@ -46,6 +53,7 @@ function App() {
           <Route path="dashboard" element={<Dashboard />} />
           <Route path="employees" element={<Employees />} />
           <Route path="attendance" element={<Attendance />} />
+          <Route path="smart-attendance" element={<SmartAttendance />} />
           <Route path="remote-work" element={<RemoteWork />} />
           <Route path="leave" element={<Leave />} />
           <Route path="payroll" element={<Payroll />} />
@@ -59,6 +67,8 @@ function App() {
           <Route path="documents" element={<DocumentManagement />} />
           <Route path="surveys" element={<EmployeeSurvey />} />
           <Route path="learning-portal" element={<LearningPortal />} />
+          <Route path="attrition-prediction" element={<AttritionPrediction />} />
+          <Route path="hr-chatbot" element={<HRChatbot />} />
           <Route path="reports" element={<Reports />} />
           <Route path="profile" element={<Profile />} />
           <Route path="inbox" element={<Inbox />} />
@@ -75,6 +85,10 @@ function App() {
           <Route path="tripets" element={<Tripets />} />
           <Route path="training" element={<Training />} />
           <Route path="feedback" element={<Feedback />} />
+          <Route path="performance-analyzer" element={<AIPerformanceAnalyzer />} />
+          <Route path="mood-tracker" element={<MoodTracker />} />
+          <Route path="smart-learning" element={<SmartLearning />} />
+          <Route path="payroll-fraud-detection" element={<PayrollFraudDetection />} />
           <Route path="payroll-correction" element={<PayrollCorrection />} />
           <Route path="admin" element={<ProtectedRoute adminOnly={true}><Admin /></ProtectedRoute>} />
         </Route>

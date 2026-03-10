@@ -57,5 +57,14 @@
     "checkOut": "7:20 AM",
     "hours": 0,
     "status": "Present"
+  },
+  {
+    "id": 7,
+    "employeeId": 43,
+    "date": "2026-03-10",
+    "checkIn": "5:46 AM",
+    "checkOut": "5:46 AM",
+    "hours": 0,
+    "status": "Present"
   }
 ]

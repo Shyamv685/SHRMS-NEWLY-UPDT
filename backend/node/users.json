@@ -394,5 +394,23 @@
     "name": "dfbhgdfgd",
     "phone": "5678568546",
     "qualification": ""
+  },
+  {
+    "id": 45,
+    "email": "shyamkuma5@gmail.com",
+    "password": "f989ab898b8c07a9d0aaaa751e2aac8bd8220dd2159ee728d901711820397e5e",
+    "role": "employee",
+    "name": "4564646",
+    "phone": "fddsg",
+    "qualification": ""
+  },
+  {
+    "id": 46,
+    "email": "shyamkum@gmail.com",
+    "password": "2ce920960b243c48e2c743215048eb77f5661b6366c06b6471a138bc634573a5",
+    "role": "employee",
+    "name": "John doe",
+    "phone": "567565645",
+    "qualification": ""
   }
 ]

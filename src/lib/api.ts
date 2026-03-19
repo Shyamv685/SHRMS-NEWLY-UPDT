@@ -363,6 +363,25 @@ export const api = {
     }
     return response.json();
   },
+  getMonthlyAttendanceReport: async (year: string, month: string) => {
+    const userData = localStorage.getItem('user');
+    if (!userData) throw new Error('User not authenticated');
+
+    const user = JSON.parse(userData);
+    const response = await fetch(`${API_BASE_URL}/reports/monthly-attendance?year=${year}&month=${month}`, {
+      method: 'GET',
+      headers: {
+        'X-User-Email': user.email,
+        'X-User-Role': user.role
+      },
+    });
+    if (!response.ok) {
+      const error = await response.json();
+      throw new Error(error.error || 'Failed to fetch monthly attendance report');
+    }
+    return response.json();
+  },
+
   getTimesheetSummary: async (period?: string, startDate?: string, endDate?: string) => {
     const userData = localStorage.getItem('user');
     if (!userData) throw new Error('User not authenticated');

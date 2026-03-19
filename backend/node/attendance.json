@@ -1,70 +1,1412 @@
 [
   {
-    "id": 4,
-    "employeeId": 30,
-    "date": "2026-01-31",
-    "checkIn": "8:45 PM",
-    "checkOut": "8:45 PM",
-    "hours": 0,
-    "status": "Present",
-    "employeeName": "sivakumar D "
-  },
-  {
-    "id": 5,
-    "employeeId": 31,
-    "date": "2026-01-31",
-    "checkIn": "8:57 PM",
-    "checkOut": "8:57 PM",
-    "hours": 0,
-    "status": "Present",
-    "employeeName": "Devakrishna"
-  },
-  {
-    "id": 3,
-    "employeeId": 22,
-    "date": "2025-11-07",
-    "checkIn": "11:10 PM",
-    "checkOut": "11:10 PM",
-    "hours": 0,
-    "status": "Present",
-    "employeeName": "Ravi Kumar R"
-  },
-  {
     "id": 1,
-    "employeeId": 5,
-    "date": "2025-11-05",
-    "checkIn": "1:39 PM",
-    "checkOut": null,
-    "hours": 0,
-    "status": "Present",
-    "employeeName": "Ravi Kumar"
+    "employeeId": 1,
+    "employeeName": "Ravi Kumar",
+    "date": "2026-03-02",
+    "checkIn": "09:25 AM",
+    "checkOut": "005:45 PM",
+    "hours": 8.9,
+    "status": "Present"
   },
   {
     "id": 2,
-    "employeeId": 2,
-    "date": "2025-11-05",
-    "checkIn": "1:43 PM",
-    "checkOut": "1:45 PM",
-    "hours": 0,
-    "status": "Present",
-    "employeeName": "kuik"
+    "employeeId": 1,
+    "employeeName": "Ravi Kumar",
+    "date": "2026-03-03",
+    "checkIn": "08:38 AM",
+    "checkOut": "005:03 PM",
+    "hours": 8,
+    "status": "Present"
+  },
+  {
+    "id": 3,
+    "employeeId": 1,
+    "employeeName": "Ravi Kumar",
+    "date": "2026-03-04",
+    "checkIn": "09:10 AM",
+    "checkOut": "005:31 PM",
+    "hours": 8.74,
+    "status": "Present"
+  },
+  {
+    "id": 4,
+    "employeeId": 1,
+    "employeeName": "Ravi Kumar",
+    "date": "2026-03-05",
+    "checkIn": "09:00 AM",
+    "checkOut": "006:10 PM",
+    "hours": 8.69,
+    "status": "Present"
+  },
+  {
+    "id": 5,
+    "employeeId": 1,
+    "employeeName": "Ravi Kumar",
+    "date": "2026-03-06",
+    "checkIn": "08:49 AM",
+    "checkOut": "005:54 PM",
+    "hours": 8.15,
+    "status": "Present"
   },
   {
     "id": 6,
-    "employeeId": 37,
-    "date": "2026-02-01",
-    "checkIn": "7:20 AM",
-    "checkOut": "7:20 AM",
-    "hours": 0,
+    "employeeId": 1,
+    "employeeName": "Ravi Kumar",
+    "date": "2026-03-09",
+    "checkIn": "09:24 AM",
+    "checkOut": "005:14 PM",
+    "hours": 8.34,
     "status": "Present"
   },
   {
     "id": 7,
-    "employeeId": 43,
+    "employeeId": 1,
+    "employeeName": "Ravi Kumar",
     "date": "2026-03-10",
-    "checkIn": "5:46 AM",
-    "checkOut": "5:46 AM",
-    "hours": 0,
+    "checkIn": "09:15 AM",
+    "checkOut": "005:57 PM",
+    "hours": 8.9,
     "status": "Present"
+  },
+  {
+    "id": 8,
+    "employeeId": 1,
+    "employeeName": "Ravi Kumar",
+    "date": "2026-03-11",
+    "checkIn": "09:01 AM",
+    "checkOut": "006:05 PM",
+    "hours": 8.7,
+    "status": "Present"
+  },
+  {
+    "id": 9,
+    "employeeId": 1,
+    "employeeName": "Ravi Kumar",
+    "date": "2026-03-12",
+    "checkIn": "08:49 AM",
+    "checkOut": "005:38 PM",
+    "hours": 8.14,
+    "status": "Present"
+  },
+  {
+    "id": 10,
+    "employeeId": 1,
+    "employeeName": "Ravi Kumar",
+    "date": "2026-03-13",
+    "checkIn": "09:27 AM",
+    "checkOut": "005:43 PM",
+    "hours": 8.82,
+    "status": "Present"
+  },
+  {
+    "id": 11,
+    "employeeId": 1,
+    "employeeName": "Ravi Kumar",
+    "date": "2026-03-16",
+    "checkIn": "08:44 AM",
+    "checkOut": "005:46 PM",
+    "hours": 8.92,
+    "status": "Present"
+  },
+  {
+    "id": 12,
+    "employeeId": 1,
+    "employeeName": "Ravi Kumar",
+    "date": "2026-03-17",
+    "checkIn": "09:08 AM",
+    "checkOut": "005:32 PM",
+    "hours": 8.12,
+    "status": "Present"
+  },
+  {
+    "id": 13,
+    "employeeId": 1,
+    "employeeName": "Ravi Kumar",
+    "date": "2026-03-18",
+    "checkIn": "08:54 AM",
+    "checkOut": "005:36 PM",
+    "hours": 8.92,
+    "status": "Present"
+  },
+  {
+    "id": 14,
+    "employeeId": 1,
+    "employeeName": "Ravi Kumar",
+    "date": "2026-03-19",
+    "checkIn": "09:10 AM",
+    "checkOut": "005:21 PM",
+    "hours": 8.95,
+    "status": "Present"
+  },
+  {
+    "id": 15,
+    "employeeId": 2,
+    "employeeName": "kuik",
+    "date": "2026-03-02",
+    "checkIn": "08:46 AM",
+    "checkOut": "005:38 PM",
+    "hours": 8.93,
+    "status": "Present"
+  },
+  {
+    "id": 16,
+    "employeeId": 2,
+    "employeeName": "kuik",
+    "date": "2026-03-03",
+    "checkIn": "09:16 AM",
+    "checkOut": "005:25 PM",
+    "hours": 8.98,
+    "status": "Present"
+  },
+  {
+    "id": 17,
+    "employeeId": 2,
+    "employeeName": "kuik",
+    "date": "2026-03-04",
+    "checkIn": "09:01 AM",
+    "checkOut": "005:53 PM",
+    "hours": 8.38,
+    "status": "Present"
+  },
+  {
+    "id": 18,
+    "employeeId": 2,
+    "employeeName": "kuik",
+    "date": "2026-03-05",
+    "checkIn": "08:57 AM",
+    "checkOut": "005:38 PM",
+    "hours": 8.51,
+    "status": "Present"
+  },
+  {
+    "id": 19,
+    "employeeId": 2,
+    "employeeName": "kuik",
+    "date": "2026-03-06",
+    "checkIn": "08:38 AM",
+    "checkOut": "006:28 PM",
+    "hours": 8.63,
+    "status": "Present"
+  },
+  {
+    "id": 20,
+    "employeeId": 2,
+    "employeeName": "kuik",
+    "date": "2026-03-09",
+    "checkIn": "09:26 AM",
+    "checkOut": "005:21 PM",
+    "hours": 8.27,
+    "status": "Present"
+  },
+  {
+    "id": 21,
+    "employeeId": 2,
+    "employeeName": "kuik",
+    "date": "2026-03-10",
+    "checkIn": "08:31 AM",
+    "checkOut": "006:24 PM",
+    "hours": 8.99,
+    "status": "Present"
+  },
+  {
+    "id": 22,
+    "employeeId": 2,
+    "employeeName": "kuik",
+    "date": "2026-03-11",
+    "checkIn": "09:12 AM",
+    "checkOut": "005:44 PM",
+    "hours": 8.95,
+    "status": "Present"
+  },
+  {
+    "id": 23,
+    "employeeId": 2,
+    "employeeName": "kuik",
+    "date": "2026-03-12",
+    "checkIn": "09:07 AM",
+    "checkOut": "005:14 PM",
+    "hours": 8.73,
+    "status": "Present"
+  },
+  {
+    "id": 24,
+    "employeeId": 2,
+    "employeeName": "kuik",
+    "date": "2026-03-13",
+    "checkIn": "09:16 AM",
+    "checkOut": "005:46 PM",
+    "hours": 8.25,
+    "status": "Present"
+  },
+  {
+    "id": 25,
+    "employeeId": 2,
+    "employeeName": "kuik",
+    "date": "2026-03-16",
+    "checkIn": "09:25 AM",
+    "checkOut": "005:20 PM",
+    "hours": 8.78,
+    "status": "Present"
+  },
+  {
+    "id": 26,
+    "employeeId": 2,
+    "employeeName": "kuik",
+    "date": "2026-03-17",
+    "checkIn": "09:27 AM",
+    "checkOut": "005:10 PM",
+    "hours": 8.18,
+    "status": "Present"
+  },
+  {
+    "id": 27,
+    "employeeId": 2,
+    "employeeName": "kuik",
+    "date": "2026-03-18",
+    "checkIn": "09:24 AM",
+    "checkOut": "005:31 PM",
+    "hours": 8.1,
+    "status": "Present"
+  },
+  {
+    "id": 28,
+    "employeeId": 2,
+    "employeeName": "kuik",
+    "date": "2026-03-19",
+    "checkIn": "09:29 AM",
+    "checkOut": "006:08 PM",
+    "hours": 8.12,
+    "status": "Present"
+  },
+  {
+    "id": 29,
+    "employeeId": 3,
+    "employeeName": "kiran",
+    "date": "2026-03-02",
+    "checkIn": "09:13 AM",
+    "checkOut": "005:03 PM",
+    "hours": 8.11,
+    "status": "Present"
+  },
+  {
+    "id": 30,
+    "employeeId": 3,
+    "employeeName": "kiran",
+    "date": "2026-03-03",
+    "checkIn": "08:46 AM",
+    "checkOut": "005:50 PM",
+    "hours": 8.87,
+    "status": "Present"
+  },
+  {
+    "id": 31,
+    "employeeId": 3,
+    "employeeName": "kiran",
+    "date": "2026-03-04",
+    "checkIn": "09:02 AM",
+    "checkOut": "005:02 PM",
+    "hours": 8.33,
+    "status": "Present"
+  },
+  {
+    "id": 32,
+    "employeeId": 3,
+    "employeeName": "kiran",
+    "date": "2026-03-05",
+    "checkIn": "08:48 AM",
+    "checkOut": "005:29 PM",
+    "hours": 8.62,
+    "status": "Present"
+  },
+  {
+    "id": 33,
+    "employeeId": 3,
+    "employeeName": "kiran",
+    "date": "2026-03-06",
+    "checkIn": "08:41 AM",
+    "checkOut": "005:22 PM",
+    "hours": 8.86,
+    "status": "Present"
+  },
+  {
+    "id": 34,
+    "employeeId": 3,
+    "employeeName": "kiran",
+    "date": "2026-03-09",
+    "checkIn": "08:44 AM",
+    "checkOut": "006:28 PM",
+    "hours": 8.03,
+    "status": "Present"
+  },
+  {
+    "id": 35,
+    "employeeId": 3,
+    "employeeName": "kiran",
+    "date": "2026-03-10",
+    "checkIn": "09:08 AM",
+    "checkOut": "005:38 PM",
+    "hours": 8.83,
+    "status": "Present"
+  },
+  {
+    "id": 36,
+    "employeeId": 3,
+    "employeeName": "kiran",
+    "date": "2026-03-11",
+    "checkIn": "09:08 AM",
+    "checkOut": "005:47 PM",
+    "hours": 8.51,
+    "status": "Present"
+  },
+  {
+    "id": 37,
+    "employeeId": 3,
+    "employeeName": "kiran",
+    "date": "2026-03-12",
+    "checkIn": "08:51 AM",
+    "checkOut": "005:54 PM",
+    "hours": 8.39,
+    "status": "Present"
+  },
+  {
+    "id": 38,
+    "employeeId": 3,
+    "employeeName": "kiran",
+    "date": "2026-03-13",
+    "checkIn": "08:53 AM",
+    "checkOut": "005:47 PM",
+    "hours": 8.24,
+    "status": "Present"
+  },
+  {
+    "id": 39,
+    "employeeId": 3,
+    "employeeName": "kiran",
+    "date": "2026-03-16",
+    "checkIn": "09:10 AM",
+    "checkOut": "005:44 PM",
+    "hours": 8.45,
+    "status": "Present"
+  },
+  {
+    "id": 40,
+    "employeeId": 3,
+    "employeeName": "kiran",
+    "date": "2026-03-17",
+    "checkIn": "08:59 AM",
+    "checkOut": "006:09 PM",
+    "hours": 8.77,
+    "status": "Present"
+  },
+  {
+    "id": 41,
+    "employeeId": 3,
+    "employeeName": "kiran",
+    "date": "2026-03-18",
+    "checkIn": "08:33 AM",
+    "checkOut": "005:31 PM",
+    "hours": 8.79,
+    "status": "Present"
+  },
+  {
+    "id": 42,
+    "employeeId": 3,
+    "employeeName": "kiran",
+    "date": "2026-03-19",
+    "checkIn": "08:40 AM",
+    "checkOut": "005:58 PM",
+    "hours": 8.02,
+    "status": "Present"
+  },
+  {
+    "id": 43,
+    "employeeId": 4,
+    "employeeName": "Jerrymerlin",
+    "date": "2026-03-02",
+    "checkIn": "09:19 AM",
+    "checkOut": "006:13 PM",
+    "hours": 8.04,
+    "status": "Present"
+  },
+  {
+    "id": 44,
+    "employeeId": 4,
+    "employeeName": "Jerrymerlin",
+    "date": "2026-03-03",
+    "checkIn": "08:30 AM",
+    "checkOut": "006:29 PM",
+    "hours": 8.75,
+    "status": "Present"
+  },
+  {
+    "id": 45,
+    "employeeId": 4,
+    "employeeName": "Jerrymerlin",
+    "date": "2026-03-04",
+    "checkIn": "09:03 AM",
+    "checkOut": "005:22 PM",
+    "hours": 8.37,
+    "status": "Present"
+  },
+  {
+    "id": 46,
+    "employeeId": 4,
+    "employeeName": "Jerrymerlin",
+    "date": "2026-03-05",
+    "checkIn": "08:46 AM",
+    "checkOut": "006:06 PM",
+    "hours": 8.08,
+    "status": "Present"
+  },
+  {
+    "id": 47,
+    "employeeId": 4,
+    "employeeName": "Jerrymerlin",
+    "date": "2026-03-06",
+    "checkIn": "09:09 AM",
+    "checkOut": "006:06 PM",
+    "hours": 8.45,
+    "status": "Present"
+  },
+  {
+    "id": 48,
+    "employeeId": 4,
+    "employeeName": "Jerrymerlin",
+    "date": "2026-03-09",
+    "checkIn": "08:31 AM",
+    "checkOut": "006:27 PM",
+    "hours": 8.62,
+    "status": "Present"
+  },
+  {
+    "id": 49,
+    "employeeId": 4,
+    "employeeName": "Jerrymerlin",
+    "date": "2026-03-10",
+    "checkIn": "09:22 AM",
+    "checkOut": "006:16 PM",
+    "hours": 8.63,
+    "status": "Present"
+  },
+  {
+    "id": 50,
+    "employeeId": 4,
+    "employeeName": "Jerrymerlin",
+    "date": "2026-03-11",
+    "checkIn": "09:14 AM",
+    "checkOut": "005:42 PM",
+    "hours": 8.98,
+    "status": "Present"
+  },
+  {
+    "id": 51,
+    "employeeId": 4,
+    "employeeName": "Jerrymerlin",
+    "date": "2026-03-12",
+    "checkIn": "09:00 AM",
+    "checkOut": "005:54 PM",
+    "hours": 8.73,
+    "status": "Present"
+  },
+  {
+    "id": 52,
+    "employeeId": 4,
+    "employeeName": "Jerrymerlin",
+    "date": "2026-03-13",
+    "checkIn": "08:47 AM",
+    "checkOut": "005:17 PM",
+    "hours": 8.43,
+    "status": "Present"
+  },
+  {
+    "id": 53,
+    "employeeId": 4,
+    "employeeName": "Jerrymerlin",
+    "date": "2026-03-16",
+    "checkIn": "09:28 AM",
+    "checkOut": "005:34 PM",
+    "hours": 8.02,
+    "status": "Present"
+  },
+  {
+    "id": 54,
+    "employeeId": 4,
+    "employeeName": "Jerrymerlin",
+    "date": "2026-03-17",
+    "checkIn": "08:50 AM",
+    "checkOut": "005:16 PM",
+    "hours": 8.19,
+    "status": "Present"
+  },
+  {
+    "id": 55,
+    "employeeId": 4,
+    "employeeName": "Jerrymerlin",
+    "date": "2026-03-18",
+    "checkIn": "08:30 AM",
+    "checkOut": "005:27 PM",
+    "hours": 8.76,
+    "status": "Present"
+  },
+  {
+    "id": 56,
+    "employeeId": 4,
+    "employeeName": "Jerrymerlin",
+    "date": "2026-03-19",
+    "checkIn": "08:39 AM",
+    "checkOut": "006:17 PM",
+    "hours": 8.45,
+    "status": "Present"
+  },
+  {
+    "id": 57,
+    "employeeId": 5,
+    "employeeName": "Ravi Kumar (2)",
+    "date": "2026-03-02",
+    "checkIn": "09:24 AM",
+    "checkOut": "005:17 PM",
+    "hours": 8.25,
+    "status": "Present"
+  },
+  {
+    "id": 58,
+    "employeeId": 5,
+    "employeeName": "Ravi Kumar (2)",
+    "date": "2026-03-03",
+    "checkIn": "08:30 AM",
+    "checkOut": "005:43 PM",
+    "hours": 8.6,
+    "status": "Present"
+  },
+  {
+    "id": 59,
+    "employeeId": 5,
+    "employeeName": "Ravi Kumar (2)",
+    "date": "2026-03-04",
+    "checkIn": "08:32 AM",
+    "checkOut": "005:06 PM",
+    "hours": 8.1,
+    "status": "Present"
+  },
+  {
+    "id": 60,
+    "employeeId": 5,
+    "employeeName": "Ravi Kumar (2)",
+    "date": "2026-03-05",
+    "checkIn": "09:03 AM",
+    "checkOut": "005:43 PM",
+    "hours": 8.92,
+    "status": "Present"
+  },
+  {
+    "id": 61,
+    "employeeId": 5,
+    "employeeName": "Ravi Kumar (2)",
+    "date": "2026-03-06",
+    "checkIn": "09:29 AM",
+    "checkOut": "006:07 PM",
+    "hours": 8.77,
+    "status": "Present"
+  },
+  {
+    "id": 62,
+    "employeeId": 5,
+    "employeeName": "Ravi Kumar (2)",
+    "date": "2026-03-09",
+    "checkIn": "09:09 AM",
+    "checkOut": "006:13 PM",
+    "hours": 8.76,
+    "status": "Present"
+  },
+  {
+    "id": 63,
+    "employeeId": 5,
+    "employeeName": "Ravi Kumar (2)",
+    "date": "2026-03-10",
+    "checkIn": "08:53 AM",
+    "checkOut": "006:18 PM",
+    "hours": 8.48,
+    "status": "Present"
+  },
+  {
+    "id": 64,
+    "employeeId": 5,
+    "employeeName": "Ravi Kumar (2)",
+    "date": "2026-03-11",
+    "checkIn": "09:08 AM",
+    "checkOut": "005:49 PM",
+    "hours": 8.36,
+    "status": "Present"
+  },
+  {
+    "id": 65,
+    "employeeId": 5,
+    "employeeName": "Ravi Kumar (2)",
+    "date": "2026-03-12",
+    "checkIn": "08:53 AM",
+    "checkOut": "005:28 PM",
+    "hours": 8.43,
+    "status": "Present"
+  },
+  {
+    "id": 66,
+    "employeeId": 5,
+    "employeeName": "Ravi Kumar (2)",
+    "date": "2026-03-13",
+    "checkIn": "08:41 AM",
+    "checkOut": "005:12 PM",
+    "hours": 8.95,
+    "status": "Present"
+  },
+  {
+    "id": 67,
+    "employeeId": 5,
+    "employeeName": "Ravi Kumar (2)",
+    "date": "2026-03-16",
+    "checkIn": "09:24 AM",
+    "checkOut": "005:54 PM",
+    "hours": 8.43,
+    "status": "Present"
+  },
+  {
+    "id": 68,
+    "employeeId": 5,
+    "employeeName": "Ravi Kumar (2)",
+    "date": "2026-03-17",
+    "checkIn": "09:18 AM",
+    "checkOut": "006:11 PM",
+    "hours": 8.22,
+    "status": "Present"
+  },
+  {
+    "id": 69,
+    "employeeId": 5,
+    "employeeName": "Ravi Kumar (2)",
+    "date": "2026-03-18",
+    "checkIn": "08:31 AM",
+    "checkOut": "005:59 PM",
+    "hours": 8.99,
+    "status": "Present"
+  },
+  {
+    "id": 70,
+    "employeeId": 5,
+    "employeeName": "Ravi Kumar (2)",
+    "date": "2026-03-19",
+    "checkIn": "09:13 AM",
+    "checkOut": "005:14 PM",
+    "hours": 8.43,
+    "status": "Present"
+  },
+  {
+    "id": 71,
+    "employeeId": 6,
+    "employeeName": "kiran (2)",
+    "date": "2026-03-02",
+    "checkIn": "08:39 AM",
+    "checkOut": "005:48 PM",
+    "hours": 8.19,
+    "status": "Present"
+  },
+  {
+    "id": 72,
+    "employeeId": 6,
+    "employeeName": "kiran (2)",
+    "date": "2026-03-03",
+    "checkIn": "09:02 AM",
+    "checkOut": "005:36 PM",
+    "hours": 8.89,
+    "status": "Present"
+  },
+  {
+    "id": 73,
+    "employeeId": 6,
+    "employeeName": "kiran (2)",
+    "date": "2026-03-04",
+    "checkIn": "09:16 AM",
+    "checkOut": "006:24 PM",
+    "hours": 8.85,
+    "status": "Present"
+  },
+  {
+    "id": 74,
+    "employeeId": 6,
+    "employeeName": "kiran (2)",
+    "date": "2026-03-05",
+    "checkIn": "09:26 AM",
+    "checkOut": "006:26 PM",
+    "hours": 8.58,
+    "status": "Present"
+  },
+  {
+    "id": 75,
+    "employeeId": 6,
+    "employeeName": "kiran (2)",
+    "date": "2026-03-06",
+    "checkIn": "09:13 AM",
+    "checkOut": "005:03 PM",
+    "hours": 8.28,
+    "status": "Present"
+  },
+  {
+    "id": 76,
+    "employeeId": 6,
+    "employeeName": "kiran (2)",
+    "date": "2026-03-09",
+    "checkIn": "09:12 AM",
+    "checkOut": "005:49 PM",
+    "hours": 8.75,
+    "status": "Present"
+  },
+  {
+    "id": 77,
+    "employeeId": 6,
+    "employeeName": "kiran (2)",
+    "date": "2026-03-10",
+    "checkIn": "09:19 AM",
+    "checkOut": "006:02 PM",
+    "hours": 8.88,
+    "status": "Present"
+  },
+  {
+    "id": 78,
+    "employeeId": 6,
+    "employeeName": "kiran (2)",
+    "date": "2026-03-11",
+    "checkIn": "08:47 AM",
+    "checkOut": "005:55 PM",
+    "hours": 8.66,
+    "status": "Present"
+  },
+  {
+    "id": 79,
+    "employeeId": 6,
+    "employeeName": "kiran (2)",
+    "date": "2026-03-12",
+    "checkIn": "08:46 AM",
+    "checkOut": "005:36 PM",
+    "hours": 8.88,
+    "status": "Present"
+  },
+  {
+    "id": 80,
+    "employeeId": 6,
+    "employeeName": "kiran (2)",
+    "date": "2026-03-13",
+    "checkIn": "09:27 AM",
+    "checkOut": "005:47 PM",
+    "hours": 8.82,
+    "status": "Present"
+  },
+  {
+    "id": 81,
+    "employeeId": 6,
+    "employeeName": "kiran (2)",
+    "date": "2026-03-16",
+    "checkIn": "09:13 AM",
+    "checkOut": "006:22 PM",
+    "hours": 8.88,
+    "status": "Present"
+  },
+  {
+    "id": 82,
+    "employeeId": 6,
+    "employeeName": "kiran (2)",
+    "date": "2026-03-17",
+    "checkIn": "08:38 AM",
+    "checkOut": "006:01 PM",
+    "hours": 8.37,
+    "status": "Present"
+  },
+  {
+    "id": 83,
+    "employeeId": 6,
+    "employeeName": "kiran (2)",
+    "date": "2026-03-18",
+    "checkIn": "08:31 AM",
+    "checkOut": "005:47 PM",
+    "hours": 8.82,
+    "status": "Present"
+  },
+  {
+    "id": 84,
+    "employeeId": 6,
+    "employeeName": "kiran (2)",
+    "date": "2026-03-19",
+    "checkIn": "08:44 AM",
+    "checkOut": "005:55 PM",
+    "hours": 8.76,
+    "status": "Present"
+  },
+  {
+    "id": 85,
+    "employeeId": 7,
+    "employeeName": "Shivaraj",
+    "date": "2026-03-02",
+    "checkIn": "08:58 AM",
+    "checkOut": "005:01 PM",
+    "hours": 8.9,
+    "status": "Present"
+  },
+  {
+    "id": 86,
+    "employeeId": 7,
+    "employeeName": "Shivaraj",
+    "date": "2026-03-03",
+    "checkIn": "09:13 AM",
+    "checkOut": "005:15 PM",
+    "hours": 8.05,
+    "status": "Present"
+  },
+  {
+    "id": 87,
+    "employeeId": 7,
+    "employeeName": "Shivaraj",
+    "date": "2026-03-04",
+    "checkIn": "08:56 AM",
+    "checkOut": "005:16 PM",
+    "hours": 8.42,
+    "status": "Present"
+  },
+  {
+    "id": 88,
+    "employeeId": 7,
+    "employeeName": "Shivaraj",
+    "date": "2026-03-05",
+    "checkIn": "09:20 AM",
+    "checkOut": "005:10 PM",
+    "hours": 8.42,
+    "status": "Present"
+  },
+  {
+    "id": 89,
+    "employeeId": 7,
+    "employeeName": "Shivaraj",
+    "date": "2026-03-06",
+    "checkIn": "09:03 AM",
+    "checkOut": "005:26 PM",
+    "hours": 8.58,
+    "status": "Present"
+  },
+  {
+    "id": 90,
+    "employeeId": 7,
+    "employeeName": "Shivaraj",
+    "date": "2026-03-09",
+    "checkIn": "09:08 AM",
+    "checkOut": "005:56 PM",
+    "hours": 8.99,
+    "status": "Present"
+  },
+  {
+    "id": 91,
+    "employeeId": 7,
+    "employeeName": "Shivaraj",
+    "date": "2026-03-10",
+    "checkIn": "09:29 AM",
+    "checkOut": "005:08 PM",
+    "hours": 8.38,
+    "status": "Present"
+  },
+  {
+    "id": 92,
+    "employeeId": 7,
+    "employeeName": "Shivaraj",
+    "date": "2026-03-11",
+    "checkIn": "08:54 AM",
+    "checkOut": "006:25 PM",
+    "hours": 8.54,
+    "status": "Present"
+  },
+  {
+    "id": 93,
+    "employeeId": 7,
+    "employeeName": "Shivaraj",
+    "date": "2026-03-12",
+    "checkIn": "09:09 AM",
+    "checkOut": "005:04 PM",
+    "hours": 8.21,
+    "status": "Present"
+  },
+  {
+    "id": 94,
+    "employeeId": 7,
+    "employeeName": "Shivaraj",
+    "date": "2026-03-13",
+    "checkIn": "08:54 AM",
+    "checkOut": "005:16 PM",
+    "hours": 8.61,
+    "status": "Present"
+  },
+  {
+    "id": 95,
+    "employeeId": 7,
+    "employeeName": "Shivaraj",
+    "date": "2026-03-16",
+    "checkIn": "08:53 AM",
+    "checkOut": "006:19 PM",
+    "hours": 8.78,
+    "status": "Present"
+  },
+  {
+    "id": 96,
+    "employeeId": 7,
+    "employeeName": "Shivaraj",
+    "date": "2026-03-17",
+    "checkIn": "08:47 AM",
+    "checkOut": "006:07 PM",
+    "hours": 8.3,
+    "status": "Present"
+  },
+  {
+    "id": 97,
+    "employeeId": 7,
+    "employeeName": "Shivaraj",
+    "date": "2026-03-18",
+    "checkIn": "08:51 AM",
+    "checkOut": "005:19 PM",
+    "hours": 8.43,
+    "status": "Present"
+  },
+  {
+    "id": 98,
+    "employeeId": 7,
+    "employeeName": "Shivaraj",
+    "date": "2026-03-19",
+    "checkIn": "08:55 AM",
+    "checkOut": "005:38 PM",
+    "hours": 8.05,
+    "status": "Present"
+  },
+  {
+    "id": 99,
+    "employeeId": 8,
+    "employeeName": "herop",
+    "date": "2026-03-02",
+    "checkIn": "09:16 AM",
+    "checkOut": "005:27 PM",
+    "hours": 8.13,
+    "status": "Present"
+  },
+  {
+    "id": 100,
+    "employeeId": 8,
+    "employeeName": "herop",
+    "date": "2026-03-03",
+    "checkIn": "09:22 AM",
+    "checkOut": "005:27 PM",
+    "hours": 8.45,
+    "status": "Present"
+  },
+  {
+    "id": 101,
+    "employeeId": 8,
+    "employeeName": "herop",
+    "date": "2026-03-04",
+    "checkIn": "09:18 AM",
+    "checkOut": "005:54 PM",
+    "hours": 8.51,
+    "status": "Present"
+  },
+  {
+    "id": 102,
+    "employeeId": 8,
+    "employeeName": "herop",
+    "date": "2026-03-05",
+    "checkIn": "09:19 AM",
+    "checkOut": "005:41 PM",
+    "hours": 8.69,
+    "status": "Present"
+  },
+  {
+    "id": 103,
+    "employeeId": 8,
+    "employeeName": "herop",
+    "date": "2026-03-06",
+    "checkIn": "08:52 AM",
+    "checkOut": "005:02 PM",
+    "hours": 8.5,
+    "status": "Present"
+  },
+  {
+    "id": 104,
+    "employeeId": 8,
+    "employeeName": "herop",
+    "date": "2026-03-09",
+    "checkIn": "09:04 AM",
+    "checkOut": "006:24 PM",
+    "hours": 8.47,
+    "status": "Present"
+  },
+  {
+    "id": 105,
+    "employeeId": 8,
+    "employeeName": "herop",
+    "date": "2026-03-10",
+    "checkIn": "08:53 AM",
+    "checkOut": "006:03 PM",
+    "hours": 8.78,
+    "status": "Present"
+  },
+  {
+    "id": 106,
+    "employeeId": 8,
+    "employeeName": "herop",
+    "date": "2026-03-11",
+    "checkIn": "09:04 AM",
+    "checkOut": "005:24 PM",
+    "hours": 8.87,
+    "status": "Present"
+  },
+  {
+    "id": 107,
+    "employeeId": 8,
+    "employeeName": "herop",
+    "date": "2026-03-12",
+    "checkIn": "08:45 AM",
+    "checkOut": "005:40 PM",
+    "hours": 8.21,
+    "status": "Present"
+  },
+  {
+    "id": 108,
+    "employeeId": 8,
+    "employeeName": "herop",
+    "date": "2026-03-13",
+    "checkIn": "09:12 AM",
+    "checkOut": "005:27 PM",
+    "hours": 8.67,
+    "status": "Present"
+  },
+  {
+    "id": 109,
+    "employeeId": 8,
+    "employeeName": "herop",
+    "date": "2026-03-16",
+    "checkIn": "09:01 AM",
+    "checkOut": "005:55 PM",
+    "hours": 8.53,
+    "status": "Present"
+  },
+  {
+    "id": 110,
+    "employeeId": 8,
+    "employeeName": "herop",
+    "date": "2026-03-17",
+    "checkIn": "08:52 AM",
+    "checkOut": "005:24 PM",
+    "hours": 8.45,
+    "status": "Present"
+  },
+  {
+    "id": 111,
+    "employeeId": 8,
+    "employeeName": "herop",
+    "date": "2026-03-18",
+    "checkIn": "08:33 AM",
+    "checkOut": "006:26 PM",
+    "hours": 8.57,
+    "status": "Present"
+  },
+  {
+    "id": 112,
+    "employeeId": 8,
+    "employeeName": "herop",
+    "date": "2026-03-19",
+    "checkIn": "08:49 AM",
+    "checkOut": "006:26 PM",
+    "hours": 8.14,
+    "status": "Present"
+  },
+  {
+    "id": 113,
+    "employeeId": 9,
+    "employeeName": "Ravi kumar ",
+    "date": "2026-03-02",
+    "checkIn": "09:04 AM",
+    "checkOut": "005:05 PM",
+    "hours": 8.33,
+    "status": "Present"
+  },
+  {
+    "id": 114,
+    "employeeId": 9,
+    "employeeName": "Ravi kumar ",
+    "date": "2026-03-03",
+    "checkIn": "08:47 AM",
+    "checkOut": "006:26 PM",
+    "hours": 8.23,
+    "status": "Present"
+  },
+  {
+    "id": 115,
+    "employeeId": 9,
+    "employeeName": "Ravi kumar ",
+    "date": "2026-03-04",
+    "checkIn": "09:23 AM",
+    "checkOut": "005:15 PM",
+    "hours": 8.45,
+    "status": "Present"
+  },
+  {
+    "id": 116,
+    "employeeId": 9,
+    "employeeName": "Ravi kumar ",
+    "date": "2026-03-05",
+    "checkIn": "08:42 AM",
+    "checkOut": "005:27 PM",
+    "hours": 8.17,
+    "status": "Present"
+  },
+  {
+    "id": 117,
+    "employeeId": 9,
+    "employeeName": "Ravi kumar ",
+    "date": "2026-03-06",
+    "checkIn": "09:07 AM",
+    "checkOut": "006:13 PM",
+    "hours": 8.02,
+    "status": "Present"
+  },
+  {
+    "id": 118,
+    "employeeId": 9,
+    "employeeName": "Ravi kumar ",
+    "date": "2026-03-09",
+    "checkIn": "08:48 AM",
+    "checkOut": "005:47 PM",
+    "hours": 8.86,
+    "status": "Present"
+  },
+  {
+    "id": 119,
+    "employeeId": 9,
+    "employeeName": "Ravi kumar ",
+    "date": "2026-03-10",
+    "checkIn": "08:44 AM",
+    "checkOut": "006:17 PM",
+    "hours": 8.9,
+    "status": "Present"
+  },
+  {
+    "id": 120,
+    "employeeId": 9,
+    "employeeName": "Ravi kumar ",
+    "date": "2026-03-11",
+    "checkIn": "09:20 AM",
+    "checkOut": "005:02 PM",
+    "hours": 8.71,
+    "status": "Present"
+  },
+  {
+    "id": 121,
+    "employeeId": 9,
+    "employeeName": "Ravi kumar ",
+    "date": "2026-03-12",
+    "checkIn": "09:06 AM",
+    "checkOut": "005:49 PM",
+    "hours": 8.33,
+    "status": "Present"
+  },
+  {
+    "id": 122,
+    "employeeId": 9,
+    "employeeName": "Ravi kumar ",
+    "date": "2026-03-13",
+    "checkIn": "08:31 AM",
+    "checkOut": "005:04 PM",
+    "hours": 8.31,
+    "status": "Present"
+  },
+  {
+    "id": 123,
+    "employeeId": 9,
+    "employeeName": "Ravi kumar ",
+    "date": "2026-03-16",
+    "checkIn": "09:21 AM",
+    "checkOut": "005:50 PM",
+    "hours": 8.69,
+    "status": "Present"
+  },
+  {
+    "id": 124,
+    "employeeId": 9,
+    "employeeName": "Ravi kumar ",
+    "date": "2026-03-17",
+    "checkIn": "08:38 AM",
+    "checkOut": "006:22 PM",
+    "hours": 8.94,
+    "status": "Present"
+  },
+  {
+    "id": 125,
+    "employeeId": 9,
+    "employeeName": "Ravi kumar ",
+    "date": "2026-03-18",
+    "checkIn": "09:08 AM",
+    "checkOut": "006:05 PM",
+    "hours": 8.41,
+    "status": "Present"
+  },
+  {
+    "id": 126,
+    "employeeId": 9,
+    "employeeName": "Ravi kumar ",
+    "date": "2026-03-19",
+    "checkIn": "08:46 AM",
+    "checkOut": "005:52 PM",
+    "hours": 8.9,
+    "status": "Present"
+  },
+  {
+    "id": 127,
+    "employeeId": 10,
+    "employeeName": "Kiran (3)",
+    "date": "2026-03-02",
+    "checkIn": "09:05 AM",
+    "checkOut": "005:33 PM",
+    "hours": 8.37,
+    "status": "Present"
+  },
+  {
+    "id": 128,
+    "employeeId": 10,
+    "employeeName": "Kiran (3)",
+    "date": "2026-03-03",
+    "checkIn": "08:33 AM",
+    "checkOut": "005:18 PM",
+    "hours": 8.32,
+    "status": "Present"
+  },
+  {
+    "id": 129,
+    "employeeId": 10,
+    "employeeName": "Kiran (3)",
+    "date": "2026-03-04",
+    "checkIn": "08:58 AM",
+    "checkOut": "005:08 PM",
+    "hours": 8.47,
+    "status": "Present"
+  },
+  {
+    "id": 130,
+    "employeeId": 10,
+    "employeeName": "Kiran (3)",
+    "date": "2026-03-05",
+    "checkIn": "08:52 AM",
+    "checkOut": "006:28 PM",
+    "hours": 8.88,
+    "status": "Present"
+  },
+  {
+    "id": 131,
+    "employeeId": 10,
+    "employeeName": "Kiran (3)",
+    "date": "2026-03-06",
+    "checkIn": "09:08 AM",
+    "checkOut": "006:17 PM",
+    "hours": 8.26,
+    "status": "Present"
+  },
+  {
+    "id": 132,
+    "employeeId": 10,
+    "employeeName": "Kiran (3)",
+    "date": "2026-03-09",
+    "checkIn": "09:09 AM",
+    "checkOut": "005:37 PM",
+    "hours": 8.56,
+    "status": "Present"
+  },
+  {
+    "id": 133,
+    "employeeId": 10,
+    "employeeName": "Kiran (3)",
+    "date": "2026-03-10",
+    "checkIn": "08:56 AM",
+    "checkOut": "005:13 PM",
+    "hours": 8.95,
+    "status": "Present"
+  },
+  {
+    "id": 134,
+    "employeeId": 10,
+    "employeeName": "Kiran (3)",
+    "date": "2026-03-11",
+    "checkIn": "09:00 AM",
+    "checkOut": "005:04 PM",
+    "hours": 8.15,
+    "status": "Present"
+  },
+  {
+    "id": 135,
+    "employeeId": 10,
+    "employeeName": "Kiran (3)",
+    "date": "2026-03-12",
+    "checkIn": "08:54 AM",
+    "checkOut": "005:44 PM",
+    "hours": 8.82,
+    "status": "Present"
+  },
+  {
+    "id": 136,
+    "employeeId": 10,
+    "employeeName": "Kiran (3)",
+    "date": "2026-03-13",
+    "checkIn": "09:07 AM",
+    "checkOut": "005:48 PM",
+    "hours": 8.91,
+    "status": "Present"
+  },
+  {
+    "id": 137,
+    "employeeId": 10,
+    "employeeName": "Kiran (3)",
+    "date": "2026-03-16",
+    "checkIn": "08:33 AM",
+    "checkOut": "005:02 PM",
+    "hours": 8.3,
+    "status": "Present"
+  },
+  {
+    "id": 138,
+    "employeeId": 10,
+    "employeeName": "Kiran (3)",
+    "date": "2026-03-17",
+    "checkIn": "08:45 AM",
+    "checkOut": "005:21 PM",
+    "hours": 8.64,
+    "status": "Present"
+  },
+  {
+    "id": 139,
+    "employeeId": 10,
+    "employeeName": "Kiran (3)",
+    "date": "2026-03-18",
+    "checkIn": "09:04 AM",
+    "checkOut": "005:08 PM",
+    "hours": 8.24,
+    "status": "Present"
+  },
+  {
+    "id": 140,
+    "employeeId": 10,
+    "employeeName": "Kiran (3)",
+    "date": "2026-03-19",
+    "checkIn": "09:12 AM",
+    "checkOut": "005:25 PM",
+    "hours": 8.55,
+    "status": "Present"
+  },
+  {
+    "id": 141,
+    "employeeId": 46,
+    "date": "2026-03-19",
+    "checkIn": "10:13 PM",
+    "checkOut": "10:18 PM",
+    "hours": 0.1,
+    "status": "Present",
+    "employeeName": "dhfdgdfg"
   }
 ]

@@ -11,8 +11,8 @@ export default function AdminReports() {
   const [success, setSuccess] = useState<string | null>(null);
 
   const generateReport = async () => {
-    if (!dateRange.start || !dateRange.end) {
-      setError('Please select both start and end dates.');
+    if (!dateRange.start || !dateRange.end || reportType !== 'monthly-attendance') {
+      setError('Monthly Attendance Report requires selecting both dates (for custom period) or use Reports page for standard monthly.');
       return;
     }
 
@@ -21,44 +21,55 @@ export default function AdminReports() {
     setSuccess(null);
 
     try {
-      // Simulate API call - replace with actual API endpoint
-      const response = await fetch(`http://127.0.0.1:5000/api/admin/reports/${reportType}`, {
-        method: 'POST',
+      const [year, month] = dateRange.start.split('-').slice(0, 2);
+      
+      const response = await fetch(`http://127.0.0.1:5004/api/reports/monthly-attendance?year=${year}&month=${month}`, {
+        method: 'GET',
         headers: {
-          'Content-Type': 'application/json',
           'X-User-Email': JSON.parse(localStorage.getItem('user') || '{}').email,
           'X-User-Role': 'admin'
         },
-        body: JSON.stringify({
-          startDate: dateRange.start,
-          endDate: dateRange.end,
-        }),
       });
 
       if (response.ok) {
-        const blob = await response.blob();
+        const data = await response.json();
+        const csvContent = [
+          ['Employee', 'Total Hours', 'Permissions', 'Off Days', 'Half Days', 'Working Days', 'Present Days'],
+          ...data.employees.map(emp => [
+            emp.employeeName,
+            emp.totalHours.toFixed(1),
+            emp.permissions,
+            emp.offDays,
+            emp.halfDays,
+            emp.totalWorkingDays,
+            emp.presentDays
+          ])
+        ].map(row => row.join(',')).join('\\n');
+        
+        const blob = new Blob([csvContent], { type: 'text/csv' });
         const url = window.URL.createObjectURL(blob);
         const a = document.createElement('a');
         a.href = url;
-        a.download = `${reportType}_report_${dateRange.start}_to_${dateRange.end}.pdf`;
+        a.download = `monthly-attendance_${year}-${month}_${dateRange.start}_to_${dateRange.end}.csv`;
         document.body.appendChild(a);
         a.click();
         window.URL.revokeObjectURL(url);
         document.body.removeChild(a);
-        setSuccess('Report generated and downloaded successfully!');
+        setSuccess('Monthly Attendance Report downloaded as CSV successfully!');
       } else {
-        setError('Failed to generate report. Please try again.');
+        setError('Failed to generate report. Please ensure backend server is running.');
       }
     } catch (error) {
       console.error('Failed to generate report:', error);
-      setError('Network error. Please check your connection.');
+      setError('Network error. Ensure Node.js backend is running on port 5004.');
     } finally {
       setGenerating(false);
     }
   };
 
   const reports = [
-    { id: 'attendance', label: 'Attendance Report', description: 'Employee attendance summary', icon: '📊' },
+    { id: 'monthly-attendance', label: 'Monthly Attendance Report', description: 'Employee monthly attendance with hours, permissions, off days, half days', icon: '📊' },
+    { id: 'attendance', label: 'Attendance Report', description: 'Employee attendance summary', icon: '📋' },
     { id: 'payroll', label: 'Payroll Report', description: 'Salary and payroll details', icon: '💰' },
     { id: 'leave', label: 'Leave Report', description: 'Employee leave statistics', icon: '🏖️' },
     { id: 'training', label: 'Training Report', description: 'Training completion and feedback', icon: '🎓' },

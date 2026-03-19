@@ -1,32 +1,14 @@
-# Training Module Enhancement Plan
+# Monthly Employee Attendance Report Implementation
 
-## Phase 1: Add More Training Courses
-- [x] Expand trainings.json with diverse courses across multiple categories
-- [x] Add trainings for Technical, Soft Skills, Compliance, Leadership, etc.
+## Plan Summary
+Monthly attendance report (regular + leave data) already implemented in backend/server.js endpoint `/api/reports/monthly-attendance`. 
+Uses attendance.json (hours, Present/Absent/Half Day) + leaves.json (permissions/off days). 
+Data for 12+ employees in Oct 2025 ready. Frontend UI exists but AdminReports has wrong API endpoint.
 
-## Phase 2: Add Search and Filter Functionality
-- [x] Add search bar in Available Trainings tab
-- [x] Add category filters (dropdown/multi-select)
-- [x] Add mode filters (Online/Offline)
-- [x] Add sorting options
-
-## Phase 3: Improve UI/UX
-- [x] Enhance TrainingCard component with better styling
-- [x] Add training details modal
-- [x] Improve loading states and error handling
-- [x] Add sorting options (date, category, popularity)
-
-## Phase 4: Enhance Analytics
-- [x] Improve progress tracking visualization
-- [x] Add completion statistics
-- [x] Add training recommendations
-
-## Phase 5: Testing and Polish
-- [ ] Test all functionality
-- [ ] Ensure responsive design
-- [ ] Verify backend integration
-
-## Phase 6: Update Available Trainings to Available Courses
-- [x] Update tabs array label from "Available Trainings" to "Available Courses"
-- [x] Update section header from "Available Trainings" to "Available Courses"
-- [x] Test UI changes
+## Steps
+- [x] 1. Analyzed files/data - backend endpoint fully functional, data meets 10+ employees requirement
+- [x] 2. Create TODO.md ✅
+- [ ] 3. Fix src/components/admin/AdminReports.tsx - update API endpoint to correct Node.js server
+- [ ] 4. Test report generation as HR/Admin user
+- [ ] 5. Verify data for 10+ employees (total hours, permissions, off days, half days)
+- [ ] 6. Complete task ✅

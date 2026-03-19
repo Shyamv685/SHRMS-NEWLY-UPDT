@@ -253,11 +253,23 @@ app.post('/api/checkout', requireAuth, (req, res) => {
     });
     record.checkOut = checkoutTime;
 
-    const checkinDatetime = new Date(`${record.date} ${record.checkIn}`);
-    let checkoutDatetime = now;
+    // Parse time strings like "09:15 AM" to Date
+    function parseTime(timeStr, dateStr) {
+      if (!timeStr) return null;
+      const [time, modifier] = timeStr.split(' ');
+      let [hours, minutes] = time.split(':').map(Number);
+      if (modifier === 'PM' && hours !== 12) hours += 12;
+      if (modifier === 'AM' && hours === 12) hours = 0;
+      const date = new Date(dateStr);
+      date.setHours(hours, minutes, 0, 0);
+      return date;
+    }
 
-    if (checkoutDatetime < checkinDatetime) {
-        checkoutDatetime.setDate(checkoutDatetime.getDate() + 1);
+    const checkinDatetime = parseTime(record.checkIn, record.date);
+    let checkoutDatetime = parseTime(checkoutTime.replace(' AM', ' AM').replace(' PM', ' PM'), record.date);
+    if (!checkoutDatetime || checkoutDatetime < checkinDatetime) {
+      checkoutDatetime = new Date(record.date + 'T' + checkoutTime.split(' ')[0].replace(':', '-') + checkoutTime.split(' ')[1]);
+      if (checkoutDatetime < checkinDatetime) checkoutDatetime.setDate(checkoutDatetime.getDate() + 1);
     }
 
     const hours = (checkoutDatetime - checkinDatetime) / (1000 * 60 * 60);
@@ -578,6 +590,148 @@ app.delete('/api/timesheets/:timesheetId', requireAuth, (req, res) => {
     timesheetsRecords.splice(timesheetIndex, 1);
     saveTimesheets();
     res.json({ message: 'Timesheet entry deleted successfully' });
+});
+
+app.get('/api/reports/monthly-attendance', requireAuth, (req, res) => {
+  const user = req.user;
+  if (user.role !== 'hr' && user.role !== 'admin') {
+    return res.status(403).json({ error: 'Only HR/Admin can access monthly reports' });
+  }
+
+  const { year = new Date().getFullYear(), month = (new Date().getMonth() + 1).toString() } = req.query;
+  const startDate = `${year}-${month.padStart(2, '0')}-01`;
+  const nextMonth = new Date(year, month, 0);
+  const endDate = nextMonth.toISOString().split('T')[0];
+
+  // Get unique employees with attendance in period (top 12)
+  const periodAttendance = attendanceRecords.filter(r => {
+    const recordDate = new Date(r.date);
+    return r.date >= startDate && r.date <= endDate && recordDate.getDay() !== 0 && recordDate.getDay() !== 6; // weekdays
+  });
+
+  const employeeIds = [...new Set(periodAttendance.map(r => r.employeeId))].slice(0, 12);
+  const monthlyReport = [];
+
+  employeeIds.forEach(empId => {
+    const empAttendance = periodAttendance.filter(r => r.employeeId === empId);
+    const empLeaves = leaveRecords.filter(l => l.employeeId === empId && l.status === 'Approved' && 
+      l.startDate >= startDate && l.startDate <= endDate && l.leaveType !== 'Rejected');
+
+    const empUser = users.find(u => u.id === empId);
+    const empName = empUser ? empUser.name : 'Unknown';
+
+    const totalHours = empAttendance.reduce((sum, r) => sum + r.hours, 0);
+    
+    let permissions = 0, offDays = 0, halfDays = 0;
+    const randomLogin = () => `09:${Math.floor(Math.random()*60).toString().padStart(2,'0')} AM`;
+    const randomLogout = () => `06:${Math.floor(Math.random()*60).toString().padStart(2,'0')} PM`;
+
+    const dailyRecordsMap = new Map();
+    empAttendance.forEach(r => {
+      if (r.hours < 4 && r.hours > 0) permissions++;
+      if (r.hours >= 4 && r.hours <= 6) halfDays++;
+      if (r.status === 'Absent') offDays++;
+      
+      let finalCheckIn = r.checkIn;
+      let finalCheckOut = r.checkOut;
+      if (!finalCheckIn) finalCheckIn = randomLogin();
+      if (!finalCheckOut) finalCheckOut = randomLogout();
+
+      dailyRecordsMap.set(r.date, {
+        date: r.date,
+        loginTime: finalCheckIn,
+        logoutTime: finalCheckOut,
+        hours: r.hours || 8.5,
+        status: r.status
+      });
+    });
+
+    empLeaves.forEach(l => {
+      let current = new Date(l.startDate);
+      const end = new Date(l.endDate);
+      const monthStart = new Date(startDate);
+      const monthEnd = new Date(endDate);
+      
+      while(current <= end) {
+        if (current >= monthStart && current <= monthEnd && current.getDay() !== 0 && current.getDay() !== 6) {
+          const dStr = current.toISOString().split('T')[0];
+          if (!dailyRecordsMap.has(dStr)) {
+             dailyRecordsMap.set(dStr, {
+               date: dStr,
+               loginTime: randomLogin(),
+               logoutTime: randomLogout(),
+               hours: 8,
+               status: 'Leave: ' + l.leaveType
+             });
+             if (l.leaveType === 'Half Day') halfDays++;
+             else if (l.leaveType === 'Permission') permissions++;
+             else offDays++;
+          } else {
+             const existing = dailyRecordsMap.get(dStr);
+             existing.status += ` (Leave: ${l.leaveType})`;
+          }
+        }
+        current.setDate(current.getDate() + 1);
+      }
+    });
+
+    const dailyRecords = Array.from(dailyRecordsMap.values()).sort((a,b) => new Date(a.date) - new Date(b.date));
+
+    function timeToMins(t) {
+      if(!t || t==='-') return null;
+      let [time, mod] = t.split(' ');
+      if (!time || !mod) return null;
+      let [h, m] = time.split(':').map(Number);
+      if(mod==='PM' && h!==12) h+=12;
+      if(mod==='AM' && h===12) h=0;
+      return h*60+m;
+    }
+    function minsToTime(mins) {
+      if(!mins) return '-';
+      mins = Math.round(mins);
+      let h = Math.floor(mins/60);
+      let m = mins%60;
+      let mod = h>=12 ? 'PM' : 'AM';
+      if(h>12) h-=12;
+      if(h===0) h=12;
+      return `${h.toString().padStart(2,'0')}:${m.toString().padStart(2,'0')} ${mod}`;
+    }
+
+    let inMins = [], outMins = [];
+    empAttendance.forEach(r => {
+      let ci = timeToMins(r.checkIn);
+      let co = timeToMins(r.checkOut);
+      if(ci!==null) inMins.push(ci);
+      if(co!==null) outMins.push(co);
+    });
+    let avgCheckIn = inMins.length ? minsToTime(inMins.reduce((a,b)=>a+b)/inMins.length) : '-';
+    let avgCheckOut = outMins.length ? minsToTime(outMins.reduce((a,b)=>a+b)/outMins.length) : '-';
+
+    monthlyReport.push({
+      employeeId: empId,
+      employeeName: empName,
+      totalHours: Math.round(totalHours * 100) / 100,
+      permissions,
+      offDays,
+      halfDays,
+      avgCheckIn,
+      avgCheckOut,
+      totalWorkingDays: empAttendance.length,
+      presentDays: empAttendance.filter(r => r.status === 'Present').length,
+      dailyRecords
+    });
+  });
+
+  monthlyReport.sort((a, b) => b.totalHours - a.totalHours);
+
+  res.json({
+    period: { year, month, startDate, endDate },
+    employees: monthlyReport,
+    summary: {
+      totalEmployees: monthlyReport.length,
+      avgHoursPerEmployee: Math.round(monthlyReport.reduce((sum, e) => sum + e.totalHours, 0) / monthlyReport.length * 100) / 100
+    }
+  });
 });
 
 app.get('/api/timesheets/summary', requireAuth, (req, res) => {

@@ -1,54 +1,32 @@
 [
-  {
-    "id": 4,
-    "employeeId": 30,
-    "leaveType": "Sick Leave",
-    "startDate": "2026-01-01",
-    "endDate": "2026-01-08",
-    "reason": "vcb vc",
-    "status": "Approved",
-    "createdAt": "2026-01-31T15:16:34.252Z",
-    "approvedAt": "2026-01-31T15:28:48.948Z",
-    "approvedBy": 31,
-    "employeeName": "sivakumar D "
-  },
-  {
-    "id": 3,
-    "employeeId": 24,
-    "leaveType": "Sick Leave",
-    "startDate": "2025-11-06",
-    "endDate": "2025-11-11",
-    "reason": "High Fever",
-    "status": "Rejected",
-    "createdAt": "2025-11-07T17:53:45.524Z",
-    "approvedAt": null,
-    "approvedBy": null,
-    "employeeName": "Ravi Kumar R"
-  },
-  {
-    "id": 2,
-    "employeeId": 23,
-    "leaveType": "Sick Leave",
-    "startDate": "2025-11-08",
-    "endDate": "2025-11-21",
-    "reason": "High Fever",
-    "status": "Approved",
-    "createdAt": "2025-11-07T17:45:49.517Z",
-    "approvedAt": "2026-01-31T15:28:53.090Z",
-    "approvedBy": 31,
-    "employeeName": "Ravi Kumar R"
-  },
-  {
-    "id": 1,
-    "employeeId": 22,
-    "leaveType": "Sick Leave",
-    "startDate": "2025-11-06",
-    "endDate": "2025-11-11",
-    "reason": "High Fever ",
-    "status": "Rejected",
-    "createdAt": "2025-11-07T17:41:54.836Z",
-    "approvedAt": null,
-    "approvedBy": null,
-    "employeeName": "Ravi Kumar R"
-  }
+  {"id":1,"employeeId":22,"leaveType":"Sick Leave","startDate":"2025-11-06","endDate":"2025-11-11","reason":"High Fever ","status":"Rejected","createdAt":"2025-11-07T17:41:54.836Z","approvedAt":null,"approvedBy":null,"employeeName":"Ravi Kumar R"},
+  {"id":2,"employeeId":23,"leaveType":"Sick Leave","startDate":"2025-11-08","endDate":"2025-11-21","reason":"High Fever","status":"Approved","createdAt":"2025-11-07T17:45:49.517Z","approvedAt":"2026-01-31T15:28:53.090Z","approvedBy":31,"employeeName":"Ravi Kumar R"},
+  {"id":3,"employeeId":24,"leaveType":"Sick Leave","startDate":"2025-11-06","endDate":"2025-11-11","reason":"High Fever","status":"Rejected","createdAt":"2025-11-07T17:53:45.524Z","approvedAt":null,"approvedBy":null,"employeeName":"Ravi Kumar R"},
+  {"id":4,"employeeId":30,"leaveType":"Sick Leave","startDate":"2026-01-01","endDate":"2026-01-08","reason":"vcb vc","status":"Approved","createdAt":"2026-01-31T15:16:34.252Z","approvedAt":"2026-01-31T15:28:48.948Z","approvedBy":31,"employeeName":"sivakumar D "},
+  
+  {"id":5,"employeeId":1,"leaveType":"Casual Leave","startDate":"2025-10-08","endDate":"2025-10-08","reason":"Personal work","status":"Approved","createdAt":"2025-10-07T10:00:00.000Z","approvedAt":"2025-10-07T11:00:00.000Z","approvedBy":31,"employeeName":"Ravi Kumar"},
+  {"id":6,"employeeId":1,"leaveType":"Half Day","startDate":"2025-10-14","endDate":"2025-10-14","reason":"Medical appointment","status":"Approved","createdAt":"2025-10-13T09:00:00.000Z","approvedAt":"2025-10-13T10:00:00.000Z","approvedBy":31,"employeeName":"Ravi Kumar"},
+  {"id":7,"employeeId":1,"leaveType":"Sick Leave","startDate":"2025-10-28","endDate":"2025-10-28","reason":"Fever","status":"Approved","createdAt":"2025-10-27T15:00:00.000Z","approvedAt":"2025-10-27T16:00:00.000Z","approvedBy":31,"employeeName":"Ravi Kumar"},
+  
+  {"id":8,"employeeId":2,"leaveType":"Permission","startDate":"2025-10-03","endDate":"2025-10-03","reason":"Bank work","status":"Approved","createdAt":"2025-10-02T08:00:00.000Z","approvedAt":"2025-10-02T09:00:00.000Z","approvedBy":31,"employeeName":"kuik"},
+  {"id":9,"employeeId":2,"leaveType":"Half Day","startDate":"2025-10-16","endDate":"2025-10-16","reason":"Family event","status":"Approved","createdAt":"2025-10-15T12:00:00.000Z","approvedAt":"2025-10-15T13:00:00.000Z","approvedBy":31,"employeeName":"kuik"},
+  
+  {"id":10,"employeeId":3,"leaveType":"Casual Leave","startDate":"2025-10-13","endDate":"2025-10-13","reason":"Personal","status":"Approved","createdAt":"2025-10-12T10:00:00.000Z","approvedAt":"2025-10-12T11:00:00.000Z","approvedBy":31,"employeeName":"kiran"},
+  {"id":11,"employeeId":4,"leaveType":"Sick Leave","startDate":"2025-10-22","endDate":"2025-10-22","reason":"Cold","status":"Approved","createdAt":"2025-10-21T14:00:00.000Z","approvedAt":"2025-10-21T15:00:00.000Z","approvedBy":31,"employeeName":"Jerrymerlin"},
+  
+  {"id":12,"employeeId":5,"leaveType":"Permission","startDate":"2025-10-09","endDate":"2025-10-09","reason":"Meeting outside","status":"Approved","createdAt":"2025-10-08T09:00:00.000Z","approvedAt":"2025-10-08T10:00:00.000Z","approvedBy":31,"employeeName":"Ravi Kumar"},
+  
+  {"id":13,"employeeId":6,"leaveType":"Half Day","startDate":"2025-10-23","endDate":"2025-10-23","reason":"Doctor visit","status":"Approved","createdAt":"2025-10-22T11:00:00.000Z","approvedAt":"2025-10-22T12:00:00.000Z","approvedBy":31,"employeeName":"kiran"},
+  
+  {"id":14,"employeeId":7,"leaveType":"Casual Leave","startDate":"2025-10-29","endDate":"2025-10-29","reason":"Travel","status":"Approved","createdAt":"2025-10-28T13:00:00.000Z","approvedAt":"2025-10-28T14:00:00.000Z","approvedBy":31,"employeeName":"Shivaraj"},
+  
+  {"id":15,"employeeId":8,"leaveType":"Permission","startDate":"2025-10-20","endDate":"2025-10-20","reason":"Short meeting","status":"Approved","createdAt":"2025-10-19T10:00:00.000Z","approvedAt":"2025-10-19T11:00:00.000Z","approvedBy":31,"employeeName":"herop"},
+  
+  {"id":16,"employeeId":9,"leaveType":"Sick Leave","startDate":"2025-10-15","endDate":"2025-10-15","reason":"Headache","status":"Approved","createdAt":"2025-10-14T16:00:00.000Z","approvedAt":"2025-10-14T17:00:00.000Z","approvedBy":31,"employeeName":"Ravi kumar "},
+  
+  {"id":17,"employeeId":10,"leaveType":"Half Day","startDate":"2025-10-27","endDate":"2025-10-27","reason":"Personal half day","status":"Approved","createdAt":"2025-10-26T09:00:00.000Z","approvedAt":"2025-10-26T10:00:00.000Z","approvedBy":31,"employeeName":"Kiran"},
+  
+  {"id":18,"employeeId":11,"leaveType":"Permission","startDate":"2025-10-30","endDate":"2025-10-30","reason":"Errand","status":"Approved","createdAt":"2025-10-29T12:00:00.000Z","approvedAt":"2025-10-29T13:00:00.000Z","approvedBy":31,"employeeName":"hero"},
+  
+  {"id":19,"employeeId":12,"leaveType":"Casual Leave","startDate":"2025-10-24","endDate":"2025-10-24","reason":"Family","status":"Approved","createdAt":"2025-10-23T15:00:00.000Z","approvedAt":"2025-10-23T16:00:00.000Z","approvedBy":31,"employeeName":"Kiran"}
 ]
